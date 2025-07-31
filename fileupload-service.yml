@@ -1,0 +1,14 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: fileupload-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+file:
+  upload-dir: uploads/
